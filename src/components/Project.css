@@ -1,0 +1,167 @@
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+.proje-card {
+  border: 0.1px solid;
+  border-radius: 15px;
+  width: 500px;
+  height: 668px;
+  padding-top: 15px;
+  padding-left: 15px;
+  margin-bottom: 6rem;
+
+  margin-left: 50px;
+  margin-top: 5rem;
+}
+.proje-card h2{
+  font-size: 29px;
+  font-weight: 700;
+  padding-left: 40px;
+  padding-bottom: 15px;
+  padding-top: 25px;
+
+}
+.proje-card p{
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  width: 400px;
+  padding-left:40px ;
+
+}
+.img {
+  margin: auto;
+  width: 470px;
+  height: 287px;
+  margin-top: 45px;
+}
+.btn1 {
+  display: flex;
+  padding-right: 100px;
+  flex-wrap: wrap;
+  width: 500px;
+  gap: 10px;
+  padding-left: 35px;
+}
+.btn1 button {
+  background-color: white;
+  border-radius: 76px;
+  width: 100px;
+  height: 32px;
+  padding-top: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 25px;
+}
+.link {
+  display: flex;
+  padding-top: 35px;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+}
+.link a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+@media (max-width: 1100px) {
+
+  .proje-card {
+    width: 320px;
+    height: 600px;
+    padding-top: 15px;
+    padding-left: 3px;
+    margin-left: 25px;
+    margin-top: 3rem;
+  }
+  .proje-card h2{
+    font-size: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+  }
+  .proje-card p{
+    font-size: 12px; 
+    width: 300px;
+    padding-left:25px ;
+  
+  }
+  .img {
+    margin: auto;
+    width: 310px;
+    height: 180px;
+    margin-top: 30px;
+  }
+  .pc1{
+    margin-top: 70px;
+  }
+  .btn1 {
+    padding-right: 50px;
+    width: 300px;
+    padding-left: 35px;
+  }
+  .btn1 button {
+    width: 90px;
+    height: 30px;
+  }
+  .link {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 40px;
+    align-items: center;
+    text-decoration: none;
+  }
+  .link a{
+    font-size: 17px;
+  }
+}
+@media (max-width: 700px) {
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .proje-card {
+    width: 400px;
+    height: 668px;
+    padding-left: 10px;
+    margin-bottom: 4rem;
+    margin-left: 25px;
+  }
+  .proje-card h2{
+    font-size: 27px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+  .proje-card p{
+    font-size: 15px;
+    width: 350px;
+    padding-left:30px ;
+  
+  }
+  .img {
+    margin: auto;
+    width: 380px;
+    height: 215px;
+    margin-top: 70px;
+  }
+  .btn1 {
+    width: 500px;
+    padding-left: 30px;
+  }
+  .btn1 button {
+    width: 100px;
+    height: 32px;
+  }
+
+  .link a{
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+}

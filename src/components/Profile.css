@@ -1,0 +1,145 @@
+.bilgi {
+  height: 546px;
+}
+.profile-title {
+  font-family: Inter, sans-serif;
+  text-align: center;
+  padding-top: 72px;
+  padding-bottom: 36px;
+}
+.profile-info {
+  display: flex;
+  gap: 50px;
+}
+.card{
+  width: 500px;
+  height: 310px;
+  box-shadow:  10px 10px #9c9c9c;
+  border-radius: 12px;
+  margin-left: 70px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.info {
+  display: flex;
+  gap: 20px;
+}
+.soru p {
+  font-size: 17px;
+  font-weight: 600;
+  text-align: left;
+}
+.cevap p {
+  font-size: 17px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.aboutme {  
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 37px;
+}
+.aboutme h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  line-height: 100%;
+  font-weight: 400;
+}
+.aboutme p {
+  font-family: inter;
+  text-align: left;
+  width: 450px;
+  font-size: 18px;
+  line-height: 150½;
+  font-weight: 400;
+
+}
+
+@media (max-width: 1100px) {
+
+  .bilgi {
+    height:600px;
+  }
+  .profile-info{
+    gap: 30px;
+    justify-content: space-around;
+  }
+  .info {
+    padding-top: 10px;
+  }
+  .soru p {
+    font-size: 12px;
+  }
+  .cevap p {
+    font-size: 12px;
+  }
+  .card{
+    width: 420px;
+    height: 260px;
+    box-shadow:  10px 10px #9c9c9c;
+    border-radius: 12px;
+    margin-left: 30px;
+    padding-left: 15px;
+    padding-top: 10px;
+  }
+  .aboutme {  
+    gap: 10px;
+    padding-top: 37px;
+    margin-right: 20px;
+  }
+  .aboutme h3 {
+    font-size: 22px;
+  }
+  .aboutme p {
+    width: 300px;
+    font-size: 16px;
+    line-height: 150%;
+  }
+  
+}
+@media (max-width: 700px) {
+
+  .bilgi {
+    height:820px;
+  }
+  .profile-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .info {
+    padding-top: 20px;
+  }
+  .soru p {
+    font-size: 13px;
+  }
+  .cevap p {
+    font-size: 13px;
+  }
+  .card{
+    width: 380px;
+    height: 270px;
+    box-shadow:  10px 10px #9c9c9c;
+    border-radius: 12px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  .aboutme {  
+    gap: 10px;
+    padding-top: 20px;
+    align-items: center;
+  }
+  .aboutme h3 {
+    font-size: 27px;
+  }
+  .aboutme p {
+    width: 350px;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+  }
+  
+}
