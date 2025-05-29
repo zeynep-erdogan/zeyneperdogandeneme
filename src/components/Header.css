@@ -159,4 +159,7 @@ p span {
   .icon img {
     margin-top: 40px;
   }
+   .gri-daire {
+    display: none;
+  }
 }
