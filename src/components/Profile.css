@@ -113,17 +113,17 @@
     padding-top: 20px;
   }
   .soru p {
-    font-size: 13px;
+    font-size: 12px;
   }
   .cevap p {
-    font-size: 13px;
+    font-size: 12px;
   }
   .card{
-    width: 380px;
-    height: 270px;
+    width: 330px;
+    height: 260px;
     box-shadow:  10px 10px #9c9c9c;
     border-radius: 12px;
-    margin-left: 10px;
+    margin-left: 3px;
     padding-left: 20px;
     padding-top: 10px;
   }
@@ -133,11 +133,12 @@
     align-items: center;
   }
   .aboutme h3 {
-    font-size: 27px;
+    font-size: 25px;
   }
   .aboutme p {
-    width: 350px;
-    font-size: 18px;
+    margin-left: 35px;
+    width: 300px;
+    font-size: 16px;
     line-height: 150%;
     text-align: center;
   }

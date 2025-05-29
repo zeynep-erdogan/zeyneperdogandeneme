@@ -117,20 +117,27 @@
   .link a{
     font-size: 17px;
   }
+  .pembe-halka{
+    width: 90px;
+    height: 90px;
+    border-width: 18px;
+    margin-top: 90px;
+  }
 }
 @media (max-width: 700px) {
 
+ 
   .cards {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   .proje-card {
-    width: 400px;
+    width: 350px;
     height: 668px;
-    padding-left: 10px;
+    padding-left: 2px;
     margin-bottom: 4rem;
-    margin-left: 25px;
+    margin-left: 5px;
   }
   .proje-card h2{
     font-size: 27px;
@@ -140,19 +147,19 @@
   }
   .proje-card p{
     font-size: 15px;
-    width: 350px;
+    width: 330px;
     padding-left:30px ;
   
   }
   .img {
     margin: auto;
-    width: 380px;
-    height: 215px;
-    margin-top: 70px;
+    width: 350px;
+    height: 210px;
+    margin-top: 75px;
   }
   .btn1 {
-    width: 500px;
-    padding-left: 30px;
+    width: 400px;
+    padding-left: 15px;
   }
   .btn1 button {
     width: 100px;
@@ -162,6 +169,13 @@
   .link a{
     font-size: 20px;
     font-weight: 600;
+  }
+  .pembe-halka{
+    width: 70px;
+    height: 70px;
+    border-width: 15px;
+    margin-right: 10px;
+    margin-top: 300px;
   }
 
 }
