@@ -11,7 +11,7 @@ function Profile(props) {
     <>
       <div
         aria-hidden="true"
-        className="absolute right-[-45px] top-[1100px] w-[121px] md:w-[120px] h-[121px] md:h-[120px] border-[21px] md:border-[24px] border-[#EA2678] dark:border-gray-700 rounded-full"
+        className=" pembe-halka absolute right-[-45px] top-[1100px] w-[121px] md:w-[120px] h-[121px] md:h-[120px] border-[21px] md:border-[24px] border-[#EA2678] dark:border-gray-700 rounded-full"
       >
         {/* pembe renkli yarım halka */}
       </div>

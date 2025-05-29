@@ -117,12 +117,7 @@
   .link a{
     font-size: 17px;
   }
-  .pembe-halka{
-    width: 90px;
-    height: 90px;
-    border-width: 18px;
-    margin-top: 90px;
-  }
+  
 }
 @media (max-width: 700px) {
 
@@ -170,12 +165,6 @@
     font-size: 20px;
     font-weight: 600;
   }
-  .pembe-halka{
-    width: 70px;
-    height: 70px;
-    border-width: 15px;
-    margin-right: 10px;
-    margin-top: 300px;
-  }
+  
 
 }

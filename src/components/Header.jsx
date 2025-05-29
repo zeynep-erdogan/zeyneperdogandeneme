@@ -25,7 +25,7 @@ function Header(props) {
               aria-hidden="true"
               className=" almila-pink absolute left-0 top-[37px] w-[140px] h-[31px] bg-[#E92577] rounded-[7px] z-0"
             >{/* almila yazısının altındaki çizgi */}</div>
-            <p  className= {` almila relative ${theme === 'dark' ? ' text-[#f8f8ff]' : 'bg-[#F4F4F4] text-black'}` }>
+            <p  className= {` almila relative ${theme === 'dark' ? ' text-[#f8f8ff]' : ' text-black'}` }>
               {dil === 'en' ? data.tr.header.intro : data.en.header.intro}
             </p>
           </div>

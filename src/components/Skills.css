@@ -52,6 +52,17 @@ p {
   p {
     font-size: 20px;
   }
+  .gri-cizgi{
+    width: 60px;
+    height: 30px;
+  }
+  .gri-halka{
+    width: 75px;
+    height: 75px;
+    margin-top: 15px;
+    margin-right: -100px;
+    border-width: 15px;
+  }
 }
 @media (max-width: 700px) {
 
@@ -72,6 +83,16 @@ p {
   }
   p {
     font-size: 20px;
+  }
+  .gri-cizgi{
+    display: none;
+  }
+  .gri-halka{
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+    margin-right: -250px;
+    border-width: 8px;
   }
   
 }
